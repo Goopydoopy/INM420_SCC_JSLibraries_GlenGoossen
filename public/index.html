@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 4 3RD PARTY JS LIBARIES WERE USED-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store 3RD PARTY JS LIBRARY</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- GLIDEJS (JS 3RD PARTY GALLERY SCROLL)-->
+    <link rel="stylesheet" href="assets/css/glide.core.min.css">
+    <link rel="stylesheet" href="assets/css/glide.theme.min.css">
+    <!-- CSS ANIMATE ON SCROLL (JS 3RD PARTY SCROLL ELEMENT ANIMATIONS) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- SLICK FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Madimi+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- HERO  SECTION -->
+    <section class="hero" data-aos="fade-up">
+      <h1>FURniture </h1>
+      <p>Explore our upcoming Avante Garde pieces</p>
+      <!-- SCROLL ANIMATION BUTTON-->
+      <button class="buy-now-btn" data-aos="fade-up" onclick="scrollToOurShopSection()">Explore </button>
+      <!-- 3RD PARTY JS PARTICLE ANIMATION BACKGROUND (PARTICLE.JS)-->
+      <div id="particles-js"></div>
+    </section>
+    <!--CHAIR GALLERY SECTION -->
+    <section id="our-shop" class="our-shop" data-aos="fade-up">
+      <h2>Upcoming</h2>
+      <p>Explore our colorful fuzz</p>
+      <!-- SCROLL ANIMATION -->
+      <div class="gallery" data-aos="fade-up">
+        <!-- 3RD PARTY JS GLIDE GALLERY-->
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <img src="assets/pictues/sofaseat.PNG" alt="sofa" </li> <!-- Even the youtuber doing the glide example has there li red?-->
+              <li class="glide__slide">
+                <img src="assets/pictues/sofaseatblue.png" alt="sofa" </li>
+              <li class="glide__slide">
+                <img src="assets/pictues/sofaseatpink.png" alt="sofa" </li>
+              <li class="glide__slide">
+                <img src="assets/pictues/sofaseatpurple.png" alt="sofa" </li>
+              <li class="glide__slide">
+                <img src="assets/pictues/sofaseatwhite.png" alt="sofagreen" </li>
+            </ul>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <!-- GLIDE AROUNDS < & > -->
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+          </div>
+        </div>
+      </div>
+      <!-- 3RD PARTY JS ANIMATED GRADIENT (GRANIM)-->
+      <canvas id="canvas-basic"></canvas>
+    </section>
+    </section>
+    <!-- FOOTER-->
+    <footer>
+      <div class="contact-info">
+        <p>Contact us:</p>
+        <p>Email: info@furniturestore.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+    </footer>
+    <!-- LINKS TO 3RD PARTY JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/granim.js"></script>
+    <script src="assets/js/granim.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
